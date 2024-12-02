@@ -9,11 +9,18 @@ Online abusive content detection, particularly in low-resource settings and with
 
 ## Overview of the codebase
 
+### Folders
+
 1. [```data```](/data): Contains the script to download the dataset with the extracted embeddings.
 2. [```feature-extraction```](/feature-extraction/): Contains scripts to extract features from audio files of the ADIMA dataset.
-3. [```fsl-whisper.py```](/fsl-whisper.py): To run the Whisper-Related Experiments
-4. [```fsl-wav2vec.py```](/fsl-wav2vec.py): To run the Wav2Vec-Related Experiments
-5. [```results-plot.ipynb```](/results-plot.ipynb): Contains code to the plots presented in the paper.
+3. [```plots```]: Contains plots of Accuracy Scores and tSNE experiments.
+3. [```results```]: Contains csv files with FSL experiment results.
+3. [```utils```]: Contains code for the FSL experiments.
+
+### Code files
+1. [```fsl-whisper.py```](/fsl-whisper.py): To run the Whisper-Related Experiments
+2. [```fsl-wav2vec.py```](/fsl-wav2vec.py): To run the Wav2Vec-Related Experiments
+3. [```results-plot.ipynb```](/results-plot.ipynb): Contains code to the plots presented in the paper.
 
 
 Refer to the Original Authors Repository [ADIMA](https://github.com/ShareChatAI/ADIMA) for the audio files and annotations.
