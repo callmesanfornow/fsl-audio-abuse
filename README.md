@@ -15,6 +15,8 @@ Online abusive content detection, particularly in low-resource settings and with
 4. [```results-plot.ipynb```](/results-plot.ipynb): Contains code to the plots presented in the paper.
 
 
+Refer to the Original Authors [Repository](https://github.com/ShareChatAI/ADIMA) for the audio files part of the dataset.
+
 Please use the following citation in case you use our work:
 ```
 bibtex citation
