@@ -25,6 +25,12 @@ Online abusive content detection, particularly in low-resource settings and with
 
 Refer to the Original Authors Repository [ADIMA](https://github.com/ShareChatAI/ADIMA) for the audio files and annotations.
 
+## Requirements
+
+We performed the experiments with Python 3.11. The [```requriments.txt```](/requirements.txt) contains the necessary libraries needed for the task.
+
+## Citation
+
 Please use the following citation in case you use our work:
 ```
 bibtex citation
