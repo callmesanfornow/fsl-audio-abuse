@@ -13,9 +13,9 @@ Online abusive content detection, particularly in low-resource settings and with
 
 1. [```data```](/data): Contains the script to download the dataset with the extracted embeddings.
 2. [```feature-extraction```](/feature-extraction/): Contains scripts to extract features from audio files of the ADIMA dataset.
-3. [```plots```]: Contains plots of Accuracy Scores and tSNE experiments.
-3. [```results```]: Contains csv files with FSL experiment results.
-3. [```utils```]: Contains code for the FSL experiments.
+3. [```plots```](/plots/): Contains plots of Accuracy Scores and tSNE experiments.
+3. [```results```](/results/): Contains csv files with FSL experiment results.
+3. [```utils```](/utils/): Contains code for the FSL experiments.
 
 ### Code files
 1. [```fsl-whisper.py```](/fsl-whisper.py): To run the Whisper-Related Experiments
