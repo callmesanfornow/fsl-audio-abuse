@@ -33,5 +33,13 @@ We performed the experiments with Python 3.11. The [```requriments.txt```](/requ
 
 Please use the following citation in case you use our work:
 ```
-bibtex citation
+@inproceedings{sankaran2024cross,
+      title={Towards Cross-Lingual Audio Abuse Detection in Low-Resource Settings with Few-Shot Learning}, 
+      author={Aditya Narayan Sankaran and Reza Farahbakhsh and Noel Crespi},
+      year={2024},
+      eprint={2412.01408},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2412.01408}, 
+}
 ```
