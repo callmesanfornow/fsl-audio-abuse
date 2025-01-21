@@ -33,13 +33,24 @@ We performed the experiments with Python 3.11. The [```requriments.txt```](/requ
 
 Please use the following citation in case you use our work:
 ```
-@article{sankaran2024cross,
-      title={Towards Cross-Lingual Audio Abuse Detection in Low-Resource Settings with Few-Shot Learning}, 
-      author={Aditya Narayan Sankaran and Reza Farahbakhsh and Noel Crespi},
-      year={2024},
-      eprint={2412.01408},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2412.01408}, 
+@inproceedings{sankaran2025towards,
+    title = "Towards Cross-Lingual Audio Abuse Detection in Low-Resource Settings with Few-Shot Learning",
+    author = "Sankaran, Aditya Narayan  and
+      Farahbakhsh, Reza  and
+      Crespi, Noel",
+    editor = "Rambow, Owen  and
+      Wanner, Leo  and
+      Apidianaki, Marianna  and
+      Al-Khalifa, Hend  and
+      Eugenio, Barbara Di  and
+      Schockaert, Steven",
+    booktitle = "Proceedings of the 31st International Conference on Computational Linguistics",
+    month = jan,
+    year = "2025",
+    address = "Abu Dhabi, UAE",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.coling-main.373/",
+    pages = "5558--5569",
+    abstract = "Online abusive content detection, particularly in low-resource settings and within the audio modality, remains underexplored. We investigate the potential of pre-trained audio representations for detecting abusive language in low-resource languages, in this case, in Indian languages using Few Shot Learning (FSL). Leveraging powerful representations from models such as Wav2Vec and Whisper, we explore cross-lingual abuse detection using the ADIMA dataset with FSL. Our approach integrates these representations within the Model-Agnostic Meta-Learning (MAML) framework to classify abusive language in 10 languages. We experiment with various shot sizes (50-200) evaluating the impact of limited data on performance. Additionally, a feature visualization study was conducted to better understand model behaviour. This study highlights the generalization ability of pre-trained models in low-resource scenarios and offers valuable insights into detecting abusive language in multilingual contexts."
 }
 ```
